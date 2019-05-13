@@ -10,11 +10,11 @@ Current commands:
     
     - /waypoints list
     
-    - /waypoints add
+    - /waypoints add <name>
     
-    - /waypoints remove
+    - /waypoints remove <name>
     
-    - /waypoints navigate
+    - /waypoints navigate <name>
 
 Permissions:
 
