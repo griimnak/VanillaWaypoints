@@ -1,0 +1,21 @@
+name: VanillaWaypoints
+version: 0.9.9
+main: me.griimnak.vanillawaypoints.VanillaWaypoints
+api-version: 1.13
+authors: [griimnak]
+description: A vanilla friendly waypoints system for Spigot/Bukkit servers.
+website: https://griimnak.me
+
+commands:
+  waypoints:
+    usage: /<command> [help|list|[add|remove|navigate] [waypoint]]
+    description: VanillaWaypoints plugin command
+    aliases: [wp, vwp]
+
+permissions:
+  vanillawaypoints.waypoints:
+    description: Default permission that allows use of add, remove, list
+  vanillawaypoints.navigation:
+    description: Allows the use of the navigation command
+  vanillawaypoints.teleport:
+    description: Not yet implemented
